@@ -10,7 +10,7 @@
 .small-container{
     width: 100%;
     height: 90vh;
-    background: linear-gradient(rgba(0,0,0,0.9)50%,rgba(0,0,0,0.1)), url(./images/background.png) center/cover no-repeat;
+    background: linear-gradient(rgba(23,23,23,0.9)50%,rgba(23,23,23,0.4)), url(./images/background.png) center/cover no-repeat;
     position: relative;
 
 }
@@ -29,7 +29,7 @@
 .header-logo{
     width: 134px;
     height: 63px;
-    margin-left:130px ;
+    margin: auto;
 }
 /* end of header */
 /* content */
@@ -49,7 +49,8 @@
 }
 .text h1{
     color: var(--orange-color);
-    font-family:"Grenze",serif ;
+    /* font-family:"Grenze",serif ; */
+    font-family: "Geist", sans-serif;
     font-size: 32px;
 }
 .text-2{
@@ -70,7 +71,7 @@ line-height: 150%;
 
 @media screen and (min-width:1200px){
     .header-logo{
-        margin-left: 606px;
+        margin: auto;
     }
     .text{
 width: 645px ;
@@ -96,7 +97,6 @@ margin-top: 50px;
 @media screen and (min-width:1512px) {
     .header{
         height: 150px;
-        border: 2px solid red;
     }
     .header-center{
         width: 1392px;
@@ -151,6 +151,7 @@ footer{
     display: flex;
     float: left;
     gap: 6px;
+    margin-top: 6px;
 }
 .col-2{
     width: 149px;
