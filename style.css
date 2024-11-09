@@ -60,7 +60,6 @@
     margin-top: 15px;
      text-align: center;
     color: #454545;
-
 }
 .text-2 p{
 font-size: 12px;
@@ -90,8 +89,9 @@ margin-top: 50px;
     line-height: 140%;
 }
 .text-2 p{
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 20px;
+    line-height: 150%;
 }
 /* media screen for 1512px */
 @media screen and (min-width:1512px) {
